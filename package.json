@@ -1,6 +1,6 @@
 {
   "name": "@patchworkjs/commands",
-  "version": "1.0.0",
+  "version": "1.0.30",
   "description": "patchworkjs/commands",
   "main": "./dist/index.js",
   "dependencies": {
