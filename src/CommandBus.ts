@@ -5,7 +5,7 @@ import {ICommandHandler} from "./interfaces/ICommandHandler";
 import ICommandPublisher from "./interfaces/ICommandPublisher";
 import CommandHandlerNotFoundException from "./exceptions/CommandHandlerNotFoundException";
 import InvalidCommandHandlerException from "./exceptions/InvalidCommandHandlerException";
-import DefaultCommandPubliser from "./DefaultCommandPublisher";
+import {DefaultCommandPublisher} from "./DefaultCommandPublisher";
 import { COMMAND_HANDLER_METADATA, COMMAND_METADATA } from "./Consts";
 import ICommandMetadata from "./interfaces/ICommandMetadata"; 
 
@@ -30,7 +30,7 @@ export  class CommandBus<CommandBase extends ICommand = ICommand>
 
   public constructor() {
     super();
-    this.props = { publisher: new DefaultCommandPubliser<CommandBase>(this)};
+    this.props = { publisher: new DefaultCommandPublisher<CommandBase>(this)};
   }
 
   get publisher(): ICommandPublisher<CommandBase> {
