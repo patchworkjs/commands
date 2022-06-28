@@ -1,0 +1,2 @@
+export const COMMAND_HANDLER_METADATA="__COMMAND_HANDLER__";
+export const COMMAND_METADATA="__COMMAND__";
