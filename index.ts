@@ -1,4 +1,4 @@
 export {CommandBus} from "./src/CommandBus";
-export {ICommand} from "./src/interfaces/ICommand.interface";
-export {ICommandHandler} from "./src/interfaces/ICommandHandler.interface";
-export {CommandHandler as CommandHandlerDecorator } from "./src/decorators/CommandHandler.decorator";
+export {ICommand} from "./src/interfaces/ICommand";
+export {ICommandHandler} from "./src/interfaces/ICommandHandler";
+export {CommandHandlerDecorator } from "./src/decorators/CommandHandlerDecorator";

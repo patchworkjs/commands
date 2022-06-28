@@ -1,8 +1,8 @@
 import "jest";
 import { CommandBus } from "../../src/CommandBus";
-import { ICommand } from "../../src/interfaces/ICommand.interface";
-import { CommandHandler as CommandHandlerDecorator } from "../../src/decorators/CommandHandler.decorator";
-import { ICommandHandler } from "../../src/interfaces/ICommandHandler.interface";
+import { ICommand } from "../../src/interfaces/ICommand";
+import {CommandHandlerDecorator } from "../../src/decorators/CommandHandlerDecorator";
+import { ICommandHandler } from "../../src/interfaces/ICommandHandler";
 
 class TestCommand implements ICommand {
   constructor(public readonly value: string) {}
