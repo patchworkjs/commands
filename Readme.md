@@ -1,2 +1,3 @@
 patchworkjs/commands
-https://img.shields.io/circleci/build/github/patchowrkjs/commands/develop
+<img src="https://img.shields.io/circleci/build/github/patchowrkjs/commands/develop" alt="NPM Version" />
+
