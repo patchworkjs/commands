@@ -1,13 +1,13 @@
 import ObservableBus from "./ObservableBus";
-import {ICommand} from "./interfaces/ICommand.interface";
-import ICommandBus from "./interfaces/ICommandBus.interface";
-import {ICommandHandler} from "./interfaces/ICommandHandler.interface";
-import ICommandPublisher from "./interfaces/ICommandPublisher.interface";
-import CommandHandlerNotFoundException from "./exceptions/CommandHandlerNotFoundException.exception";
-import InvalidCommandHandlerException from "./exceptions/InvalidCommandHandlerException.exception";
+import {ICommand} from "./interfaces/ICommand";
+import ICommandBus from "./interfaces/ICommandBus";
+import {ICommandHandler} from "./interfaces/ICommandHandler";
+import ICommandPublisher from "./interfaces/ICommandPublisher";
+import CommandHandlerNotFoundException from "./exceptions/CommandHandlerNotFoundException";
+import InvalidCommandHandlerException from "./exceptions/InvalidCommandHandlerException";
 import DefaultCommandPubliser from "./DefaultCommandPublisher";
 import { COMMAND_HANDLER_METADATA, COMMAND_METADATA } from "./Consts";
-import ICommandMetadata from "./interfaces/ICommandMetadata.interface"; 
+import ICommandMetadata from "./interfaces/ICommandMetadata"; 
 
 
 export interface Type<T = any> extends Function {

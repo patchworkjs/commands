@@ -1,4 +1,4 @@
-import { Observable, Subject } from 'rxjs';
+import { Subject } from 'rxjs';
 
 
 export default class ObservableBus<T> extends Subject<T> {

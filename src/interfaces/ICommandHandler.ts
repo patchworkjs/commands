@@ -1,4 +1,4 @@
-import {ICommand} from "./ICommand.interface";
+import {ICommand} from "./ICommand";
 
 
 export interface  ICommandHandler<
